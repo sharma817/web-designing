@@ -1,0 +1,21 @@
+.box{
+    border:5px solid green;
+    height:auto;
+    width:70%;
+    background-color:azure;
+}
+
+
+.box img{
+    border:5px solid blue;
+    border-radius:70px;
+    height:200px;
+    width:200px;
+
+}
+.box video{
+    border:5px dotted red;
+    border-radius:20px;
+    
+}
+   

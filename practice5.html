@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+       *{
+        box-sizing:border-box;
+
+       }
+       body{
+        background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+       }.container{
+        height:500px;
+        width:450px;
+        border:5px solid;
+        border-radius:20px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        perspective:800px;
+      
+       }.box1,.box-img{
+        height:100%;
+        width:100%;
+        background-color:azure;
+        position:absolute;
+        border-radius:20px;
+        transition:all 1s;
+       }.container .box-img img{
+        height:100%;
+        width:100%;
+       border-radius:20px;
+       }.box1{
+        padding:20px;
+        background-color:aqua;
+        transition:all 1s;
+       
+        
+}
+        .container:hover .box1
+        {animation:rotate 1s cubic-bezier(.645,.045,.355,1.000) alternate-reverse both}
+        @keyframes rotate{0%{transform:rotatex(0deg);transform-origin:bottom}100%{transform:rotatey(-270deg);transform-origin:bottom}}
+       
+        .container:hover .box-img{animation:scale-up-bottom .9s cubic-bezier(.25,.46,.45,.94) alternate-reverse}
+        @keyframes scale-up-bottom{0%{transform:scale(0)}100%{transform:scale(1)}}
+        h1{
+            text-align:center;
+        font-size:60px;
+        font-family:cursive;
+        color:black;
+        }p{
+            line-height:1.5;
+        color:black;
+        font-family:cursive;
+        font-size:20px;
+        }hr{
+            margin:20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box1"><h1>KITTY</h1><hr/><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, dolorum voluptates fugiat facilis consequuntur ipsa dolorem vel ad minus illo fuga quasi corrupti molestiae laudantium aut ab sint praesentium sed.</p><hr/></div>
+    <div class="box-img"><img src="http://welovecatsandkittens.com/wp-content/uploads/2016/02/likes-cutie-copy.jpg" alt=""></div>
+</div>
+
+        
+
+
+
+</body>
+</html>

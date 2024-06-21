@@ -1,0 +1,35 @@
+.block{
+    border:5px double bisque;
+    height:600px;
+    width:1000px;
+    background-color:lightcyan;
+    border-radius:30px;
+}
+.block h1{
+    text-align:center;
+    color:red;
+    background-color:lightgray;
+
+    }
+    .block p{
+        text-align:center;
+    color:blue;
+    background-color:lightcyan;
+    }
+
+.block img{
+    border:5px ridge bisque;
+    width:300;
+    height:300;
+    border-radius:50%;
+    float:left;
+}
+.block video{
+    border:10px outset aquamarine;
+    width:300;
+    height:300;
+    float:center;
+    border-radius:30px;
+
+    
+}
