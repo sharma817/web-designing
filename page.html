@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>*{
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+    }
+       body{
+        height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+
+background-color:rgb(190, 211, 221);
+       }
+        .container{
+            height:100%;
+            min-width:300px;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            gap:70px;
+            align-items:center;
+            flex-wrap:wrap;
+        }
+.text{
+    height:450px;
+    width:450px;
+    border:2px solid transparent ;
+    text-align:center;
+    
+    }
+    .text h1{
+        font-size:45px;
+        color:blue;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top:100px;
+    }
+    .text p{
+        font-size:30px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }.page{
+    height:450px;
+min-width:450px;
+background-color:white;
+border-radius:5px;
+border:1px solid transparent;
+text-align:center;
+box-shadow:0 0 10px black;
+
+
+} input[type=text],input[type=password],input[type=submit]{
+           min-width:90%;
+           color:rgb(26, 25, 25);
+          border-radius:10px;
+          border:1px solid black;
+         font-size:20px;
+        margin-top:30px;
+         padding:10px;
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         text-align:left;
+         
+         }
+         input[type=submit]{
+            text-align:center;
+         }
+         hr{
+            margin-left:30px;
+            margin-right:30px;
+         }
+
+        
+         input[type=submit]{
+            background-color:blue;
+            color:white;
+         }
+         a{
+            font-size:20px;
+         }
+         button[type=submit]{
+            padding:12px;
+            width:50%;
+            font-size:18px;
+            background-color:green;
+            color:white;
+            border-radius:10px;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+<h1>Facebook</h1>
+<p>Connect with friends and the world around you on facebook</p>
+        </div>
+        <div class="page">
+            <form><div>
+<input type="text" name="" id="" placeholder="Email and Phone no."></div>
+<div>
+    <input type="password" name="" id="" placeholder="password">
+</div>
+<div><input type="submit" value="Log in"></div><br/>
+<div><a href="#">Forget password</a></div><br/><hr/><br/>
+<div>
+   <button type="submit">Create a new Account</button>
+</div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
